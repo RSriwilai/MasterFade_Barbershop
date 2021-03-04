@@ -111,18 +111,26 @@ body {
     padding-left: 50px;
 }
 
+/*----Iphone 6/7/8 plus----*/
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) {
+
+        .about-us {
+            top: 480px;
+        }
+
+     }
+
 /*----Iphone 11----*/
 @media only screen 
     and (device-width: 375px) 
     and (device-height: 812px) 
     and (-webkit-device-pixel-ratio: 3) { 
 
-
         .about-us {
-            top: 540px;
-        }
-        .about-us h1 {
-            padding-top: 10px;
+            top: 550px;
         }
     }
 
@@ -224,7 +232,7 @@ body {
     }
     .about-us {
         position: relative;
-        top: 320px;
+        top: 380px;
     }
     .about-us p {
         width: 60%;
