@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +8,7 @@
 
 body {
     font-family: 'Shippori Mincho B1', serif;
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.89);
     color: white;
 }
 .background {
@@ -15,6 +16,7 @@ body {
     width: 100%;
     height: 100vh;
     opacity: 50%;
+    
 }
 .background-desktop {
     display: unset;
@@ -26,7 +28,6 @@ body {
     background: rgba(0, 0, 0, 0.445);
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding-bottom: 10px;
-    
 }
 .logo-mobile img {
     width: 70px;
@@ -70,19 +71,21 @@ body {
 /*-----------------------------WELCOME HOMEPAGE-------------------*/
 .welcome-box {
     position: relative;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
-    padding: 10px;
     top: 20px;
+    padding-bottom:50px ;
 }
 .welcome-box h1 {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 800;
     text-shadow: 3px 2px #000;
-    color: #fff;
+    color: rgba(216, 174, 112, 0.8);
+    padding-top: 65px;
+    padding-bottom: 10px;
+    
 }
-
 .btn {
     position: relative; top: 90px;
     background: rgba(51, 51, 51, 0.753); color: rgba(216, 174, 112, 0.8);
@@ -93,16 +96,35 @@ body {
     border: 2px solid rgba(216, 174, 112, 0.8);
 }
 
-
+.about-us {
+    position: relative;
+    margin: 0 auto;
+    top: 292px;
+    text-align: center;
+    padding: 25px 0;
+    
+}
+.about-us h1 {
+    margin-top: 40px;
+}
+.about-us p {
+    padding: 30px;
+    margin-top: 20px;
+    line-height: 35px;
+    font-size: 20px;
+}
 
   @media screen and (min-width: 768px) {
+
+    
+
 
     .wrapper {
         width: 70%;
         margin: auto;
     }
     .background {
-        position: relative;
+       position: relative; 
     }
     .background-desktop{
         opacity: 50%;
@@ -153,8 +175,6 @@ body {
     .navbar .main-nav #displayer {
         display:initial;
     }
-
-    .logo:hover,
     .nav-links:hover {
         color: rgba(216, 174, 112, 0.8);
     }
@@ -167,12 +187,15 @@ body {
         height: 100vh;
                 
     }
+    .btn {
+        display: unset;
+    }
     .welcome-box {
-        top:140px;
+        top:100px;
     }
     .welcome-box h1 {
         font-size: 68px;
-
+        padding: unset;
     }
     .btn-press {
         position: relative; top: 150px;
@@ -185,10 +208,16 @@ body {
     .btn-press:hover {
         top: 152px; box-shadow: 0px 0px rgba(216, 174, 112, 0.8);
     }
-    .welcome-content-page {
+    .about-us {
         position: relative;
-        top: 700px;
-        
+        top: 320px;
+    }
+    .about-us p {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .about-us img {
+        padding-left: 70px;
     }
 
 
