@@ -29,9 +29,8 @@ body {
     background-color: rgb(24, 24, 24);
 }
 .children4 {
-    padding: 50px 0;
     height: 500px;
-    /* margin-bottom: 90px; */
+    margin-top: 30px; 
     background-color: #fff;
 }
 .children5 {
@@ -39,11 +38,8 @@ body {
     position: relative;
     height: 500px;
 }
-.background-pricelist {
-
-}
 .pricebox {
-    position: absolute;
+    
 }
 /*------------MOBILE DEVICES STARTPAGE--------------*/
 
