@@ -17,25 +17,34 @@ body {
     width: 100%;
 }
 .children1 {
-    background: url("images/welcomeimg.jpg");
-    background-attachment: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url("images/welcomeimg.jpg") no-repeat center center/cover;
     background-position-y: 50%;
     height: 100vh;
 }
 .children2 {
-    background-color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(24, 24, 24);
     padding: 90px 0;
 }
 .children3 {
-    background-color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(24, 24, 24);
 }
 .children4 {
     padding: 50px 0;
+    height: 500px;
+    /* margin-bottom: 90px; */
     background-color: #fff;
 }
+.children5 {
+    background: url("/images/background-pricelist1.jpg") no-repeat center center/cover;
+    position: relative;
+    height: 500px;
+}
+.background-pricelist {
 
+}
+.pricebox {
+    position: absolute;
+}
 /*------------MOBILE DEVICES STARTPAGE--------------*/
 
 
@@ -121,6 +130,9 @@ body {
     text-align: center;
     
 }
+.about-us h1 {
+    font-size: 28px;
+}
 .about-us p {
     padding: 30px;
     line-height: 35px;
@@ -154,11 +166,14 @@ body {
     object-fit: cover;
   }
   .to-book {
-    margin: 0 auto;
     text-align: center;
+    padding-top: 30px;
   }
   .to-book h1, p {
     color: rgba(0, 0, 0, 0.87);
+  }
+  .to-book h1 {
+      font-size: 28px;
   }
   .to-book p {
     line-height: 35px;
@@ -167,8 +182,6 @@ body {
   }
   .btn-book {
     font-size: 20px;
-    position: absolute;
-    top: 500px;
 }
 .to-book .btn {
     display: inline-block;
@@ -183,7 +196,14 @@ body {
     box-shadow: 0px 1px rgb(0, 0, 0);
     color: white;
 }
-
+.pricebox {
+    width: 90%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.pricebox h1 {
+    font-size: 28px;
+}
 
 /*--------------DESKTOP------------------*/
 @media screen and (min-width: 768px) {
@@ -193,10 +213,13 @@ body {
     }
 
     .children1 {
-        background: url("images/welcomeimg.jpg");
-        background-size: cover;
         background-position-y: 40%; 
-
+    }
+    .children2{
+        z-index: 1;
+    }
+    .children4 {
+        height: 400px;
     }
     .navbar {
         background: unset;
@@ -312,6 +335,9 @@ body {
         width: 65%;
         height: 100px;
         text-align: unset;
+        padding-top: 70px;
+        margin-left: 310px;
+        
     }
     .to-book p {
         padding: 0;
@@ -322,6 +348,8 @@ body {
     .to-book .btn-press:hover {
         background: rgba(126, 120, 120, 0.438);
     }
+
+
 
 
 }
