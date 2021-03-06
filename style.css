@@ -33,8 +33,11 @@ body {
     margin-top: 30px; 
     background-color: #fff;
 }
-.children5 {
+.background-pricelist {
     background: url("/images/background-pricelist1.jpg") no-repeat center center/cover;
+}
+.pricebox {
+    color: brown;
 }
 
 /*------------MOBILE DEVICES STARTPAGE--------------*/
