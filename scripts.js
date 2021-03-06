@@ -7,4 +7,3 @@ navBarToggle.addEventListener('click', function () {
 });
 
 
-
