@@ -117,7 +117,6 @@ body {
     width: 80%;
     margin: 0px auto;
     text-align: center;
-
 }
 .welcome-box h1 {
     font-size: 38px;
@@ -125,9 +124,7 @@ body {
     text-shadow: 3px 2px #000;
     color: rgba(216, 174, 112, 0.8);
     margin: 90px 0;
-    
 }
-
 .btn {
     display: inline-block;
     background: rgba(51, 51, 51, 0.87); color: rgba(216, 174, 112, 0.8);
@@ -142,7 +139,6 @@ body {
 .about-us {
     margin: 0 auto;
     text-align: center;
-    
 }
 .about-us h1 {
     font-size: 28px;
@@ -156,7 +152,6 @@ body {
 .about-us img {
     display: inline-block;
     padding-left: 50px;
-
 }
 /* IMG WRAPPER GALLERY */
 .image-wrapper {
@@ -164,37 +159,34 @@ body {
     grid-template-columns: repeat(5, minmax(min-content, 400px));
     justify-content: center;
   }
-
-  .image-fig {
+.image-fig {
     width: 100%;
     height: 100%;
-  }
-  .image-fig:hover {
-      opacity: 100%;
-  }
-
-  
-  .image-wrapper img {
+}
+.image-fig:hover {
+    opacity: 100%;
+}
+.image-wrapper img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-  .to-book {
+}
+/*TO BOOKING*/
+.to-book {
     text-align: center;
     padding-top: 30px;
-  }
-  .to-book h1, p {
+}
+.to-book h1, p {
     color: rgba(0, 0, 0, 0.87);
-  }
-  .to-book h1 {
-      font-size: 28px;
-  }
-  .to-book p {
+}
+.to-book h1 {
+        font-size: 28px;
+}
+.to-book p {
     line-height: 35px;
     font-size: 20px;
     padding: 30px;
-  }
-
+}
 .to-book .btn {
     display: inline-block;
     font-size: 20px;
@@ -203,6 +195,7 @@ body {
     border: unset;
     color: white;
 }
+/* PRICE BOX*/
 .pricebox {
     width: 90%;
     margin: 0 auto;
@@ -218,15 +211,12 @@ body {
 .pricebox table span {
     letter-spacing: 3px;
 }
-
 .pricebox #speciell td {
     line-height: initial;
     font-size: 14px;
-
 }
 .pricebox .td {
     color: rgba(216, 174, 112, 0.8);
-
 }
 .price-table-desktop {
     display: none;
@@ -234,9 +224,9 @@ body {
 .price-table-mobile #hr-mobile {
     margin-bottom: 5px;
 }
+/*CONTACT US*/
 .contact-us-box {
     width: 100%;
-
 }
 .contact-us-box h1 {
     padding: 35px;
@@ -249,9 +239,7 @@ body {
     line-height: 35px;
     margin: 0 auto;
     padding-bottom: 30px;
-    
 }
-
 .contact-us-textbox p{
     color: white;
 }
@@ -265,8 +253,8 @@ body {
     background: rgb(255, 255, 255);
     border: unset;
     color: black;
-    
 }
+/* GOOGLE MAPS */
 .google-maps iframe{
     display: block;
     margin: 0 auto;
@@ -275,7 +263,7 @@ body {
 #table-title {
     font-size: 20px;
 }
-
+/* CONTACT US FLEX BOX*/
 .flexbox {
     display: flex;
     flex-direction: row;
@@ -285,7 +273,6 @@ body {
 .boxes1 {
     padding: 10px;
     flex: 50%;
-
 }
 .boxes1 table {
     margin: 0 auto;
@@ -306,6 +293,7 @@ body {
     padding: 10px;
     flex: 50%;
 }
+/*FOOTER*/
 .footer {
     background-color: rgb(24, 24, 24);
 }
@@ -330,10 +318,9 @@ body {
   }
 /*--------------DESKTOP------------------*/
 @media screen and (min-width: 768px) {
-/* NAVBAR */
-    .masterfade-logo-for-mobile-devices {
-        display: none;
-    }
+
+
+    /*FLEXBOXES*/
 
     .children1 {
         background-position-y: 40%; 
@@ -351,8 +338,11 @@ body {
     .children7 {
         height: 400px;
     }
-
     
+/* NAVBAR */
+    .masterfade-logo-for-mobile-devices {
+        display: none;
+    }
     .navbar {
         background: unset;
         border: unset;
@@ -371,18 +361,15 @@ body {
         margin: 0 auto;
         margin-top: 30px;
     }
-
     .main-nav li {
         margin: 0;
         font-size: 20px;
         font-weight: bolder;
         margin: auto;
     }
-
     .nav-links {
         margin-left: 40px;
     }
-
     .navbar-toggle {
         display: none;
     }
@@ -444,15 +431,15 @@ body {
     .about-us p {
         font-size: unset;
     }
+    /*TO BOOKING*/
     .to-book p {
         padding: 0;
         font-size: unset;
-
     }
-
     .to-book .btn:hover {
         background: rgba(126, 120, 120, 0.438);
     }
+    /*PRICE TABLE*/
     .price-table-mobile {
         display: none;
     }
@@ -480,6 +467,7 @@ body {
     .pricetable {
         margin-left: auto;
     }
+    /*CONTACT US*/
     .contact-us-box h1 {
         font-size: 38px;
     }
@@ -503,12 +491,14 @@ body {
     .children7 .btn:hover {
         background: rgb(187, 187, 187);
     }
+    /*GOOGLE MAPS*/
     .google-maps {
         position: relative;
         width: 40%;
         left: 48%;
         top: -285px
     }
+    /*FLEX BOXES*/
     .boxes3 ul {
         list-style-type: none;
     }
@@ -518,6 +508,7 @@ body {
     .text-decoration:hover {
         color: rgb(202, 202, 202);
     }
+    /*FOOTER*/
     .footer br {
         display: none;
     }
