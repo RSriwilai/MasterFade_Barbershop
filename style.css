@@ -29,7 +29,7 @@ body {
     padding: 90px 0;
 }
 .children3 {
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(255, 255, 255);
 }
 .children4 {
     margin: 35px 0; 
@@ -155,9 +155,8 @@ body {
 }
 /* IMG WRAPPER GALLERY */
 .image-wrapper {
-    display: grid;
-    grid-template-columns: repeat(5, minmax(min-content, 400px));
-    justify-content: center;
+    
+    display: flex;
   }
 .image-fig {
     width: 100%;
@@ -312,10 +311,11 @@ body {
 }
 
 @media (max-width: 800px) {
-    .flexbox {
+    .flexbox,.image-wrapper {
         flex-direction: column;
     }
   }
+
 /*--------------DESKTOP------------------*/
 @media screen and (min-width: 768px) {
 
