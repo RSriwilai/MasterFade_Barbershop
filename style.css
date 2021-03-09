@@ -11,6 +11,7 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     color: #fff;
+    background-color: rgb(24, 24, 24);
 }
 .parentbox {
     display: flex;
@@ -24,7 +25,6 @@ body {
     height: 100vh;
 }
 .children2 {
-    background-color: rgb(24, 24, 24);
     padding: 90px 0;
     margin: -1px 0;
 }
@@ -357,6 +357,8 @@ body {
         height: 600px;
     }
     .children7 {
+        width: 60%;
+        margin: 0 auto;
         height: 400px;
     }
     
@@ -493,18 +495,16 @@ body {
         font-size: 38px;
     }
     .contact-us-textbox {
-        width: 45%;
-        line-height: 35px;
-        margin: unset;
-        padding-bottom: 30px;
-        padding-top: 50px;
-        padding-left: 330px;
+        width: 50%;
+        margin-left: auto ;
+        float: left;
     }
     
     .contact-us-textbox p{
         text-align: unset;
     }
     .children7 .btn {
+        display: inline-block;
         left: unset;
         margin-top: 45px;
         padding: 4px 20px;
@@ -514,10 +514,9 @@ body {
     }
     /*GOOGLE MAPS*/
     .google-maps {
-        position: relative;
-        width: 40%;
-        left: 48%;
-        top: -285px
+        width: 50%;
+        float: right;
+
     }
     /*FLEX BOXES*/
     .boxes3 ul {
