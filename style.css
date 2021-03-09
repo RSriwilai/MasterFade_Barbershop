@@ -120,15 +120,27 @@ body {
     top: 0;
     bottom: 0;
     width: 100%;
-    height: 100%; 
+    height: 100vh; 
     overflow: hidden;
 }
 #myvideo {
     position: relative;
     z-index: -1;
     width: 100%; 
-    height: 100%;
+    height: 100vh;
     object-fit: cover;
+}
+@media (min-aspect-ratio: 16/9) {
+    #myvideo {
+        width: 100%;
+        height: 100vh;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #myvideo {
+        width: 100%;
+        height: 100vh;
+    }
 }
 /* WELCOMEBOX  */
 .welcome-box {
