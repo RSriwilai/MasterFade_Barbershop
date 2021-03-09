@@ -22,7 +22,7 @@ body {
 .children1 {
     width: 100%;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.664);
+    background: rgba(0, 0, 0, 0.315);
 }
 .children2 {
     background-color: rgb(24, 24, 24);
@@ -130,18 +130,7 @@ body {
     height: 100vh;
     object-fit: cover;
 }
-/* @media (min-aspect-ratio: 16/9) {
-    #myvideo {
-        width: 100%;
-        height: 100vh;
-    }
-}
-@media (max-aspect-ratio: 16/9) {
-    #myvideo {
-        width: 100%;
-        height: 100vh;
-    }
-} */
+
 /* WELCOMEBOX  */
 .welcome-box {
     position: relative;
