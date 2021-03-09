@@ -22,7 +22,6 @@ body {
 .children1 {
     width: 100%;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.315);
 }
 .children2 {
     background-color: rgb(24, 24, 24);
@@ -345,7 +344,7 @@ body {
     /*FLEXBOXES*/
 
     .children1 {
-        background-position-y: 40%; 
+        background-color: rgba(0, 0, 0, 0.541);
     }
     .children2{
         z-index: 1;
