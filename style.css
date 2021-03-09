@@ -20,19 +20,19 @@ body {
     width: 100%;
 }
 .children1 {
-    background: url("images/welcomeimg.jpg") no-repeat center center/cover;
-    background-position-y: 50%;
     height: 100vh;
+    background: rgba(0, 0, 0, 0.664);
 }
 .children2 {
     background-color: rgb(24, 24, 24);
     padding: 90px 0;
+    margin: -1px 0;
 }
 .children3 {
     background-color: rgb(255, 255, 255);
 }
 .children4 {
-    margin: 35px 0; 
+    margin: -1px 0; 
     background-color: #fff;
 }
 .children5 {
@@ -42,21 +42,24 @@ body {
 }
 .children6 {
     background-color: rgb(24, 24, 24);
+    margin: -1px 0;
 }
 .children7 {
     background-color: rgb(24, 24, 24);
     color: white;
     width: 100%;
+    margin: -1px 0;
     padding-bottom: 20px;
 }
 .children8 {
     background-color: rgb(24, 24, 24);
     width: 100%;
-    padding-bottom: 40px;
+    padding-bottom: 45px;
 }
 .children9 {
     background-color: rgb(24, 24, 24);
     width: 100%;
+    margin: -1px 0;
     padding-bottom: 30px;
 }
 /*------------MOBILE DEVICES STARTPAGE--------------*/
@@ -109,6 +112,24 @@ body {
 }
 .active {
     display: block;
+}
+/*VIDEO BACKGROUND */ 
+.background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+}
+#myvideo {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
 }
 /* WELCOMEBOX  */
 .welcome-box {
@@ -310,6 +331,7 @@ body {
     text-align: center;
 }
 
+/*FLEX BOX TO COLUMNS ON MOBILE DEVICES*/
 @media (max-width: 800px) {
     .flexbox,.image-wrapper {
         flex-direction: column;
