@@ -5,9 +5,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.fa-star {
+    color: rgba(216, 174, 112, 0.8)
+}
 html {
     scroll-behavior: smooth;
-  }
+}
 body {
     font-family: 'Poppins', sans-serif;
     color: #fff;
@@ -536,66 +540,6 @@ body {
         border-top: 2px solid hsla(0,0%,100%,.1);
         width: 500px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* .opening-hours-box {
-        height: 300px;
-        position: relative;
-        top: -150px
-    }
-    .opening-hours-box table {
-        position: relative;
-        margin-left: 600px;
-
-    }
-    .social-media-box {
-        display: initial;
-        position: relative;
-        top: -243px;
-        left: 16%;
-    }
-    .opening-hours-box a {
-        text-decoration: none;
-        color: white;
-    }
-    .opening-hours-box a:hover {
-        color: rgb(187, 187, 187);
-    }
-    .email-box {
-        display: unset;
-        position: relative;
-        top:-230px;
-        left: 16%;
-        
-    }
-    .email-box a {      
-        color: rgb(187, 187, 187);
-    }
-    .number-box {
-       position: relative;
-       top: -460px;
-       left: 35%;
-       
-    } */
-
-    
-
-
 
 
 }
